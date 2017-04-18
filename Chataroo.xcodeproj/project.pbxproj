@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		0EB76A9D1EA56CD300A0B088 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB76A9C1EA56CD300A0B088 /* AppDelegate.swift */; };
-		0EB76A9F1EA56CD300A0B088 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB76A9E1EA56CD300A0B088 /* ViewController.swift */; };
 		0EB76AA21EA56CD300A0B088 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EB76AA01EA56CD300A0B088 /* Main.storyboard */; };
 		0EB76AA41EA56CD300A0B088 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EB76AA31EA56CD300A0B088 /* Assets.xcassets */; };
 		0EB76AA71EA56CD300A0B088 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EB76AA51EA56CD300A0B088 /* LaunchScreen.storyboard */; };
+		0EB76AB61EA56D5B00A0B088 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB76AB51EA56D5B00A0B088 /* User.swift */; };
+		0EB76AB81EA56DED00A0B088 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB76AB71EA56DED00A0B088 /* CameraViewController.swift */; };
+		0EB76ABA1EA56DF200A0B088 /* PhotoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB76AB91EA56DF200A0B088 /* PhotoCaptureDelegate.swift */; };
+		0EB76ABC1EA56F1300A0B088 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB76ABB1EA56F1300A0B088 /* CameraVC.swift */; };
+		0EB76ABE1EA5733400A0B088 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB76ABD1EA5733400A0B088 /* PreviewView.swift */; };
+		0EB76AC01EA57E9900A0B088 /* AAPLCameraVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB76ABF1EA57E9900A0B088 /* AAPLCameraVCDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0EB76A991EA56CD300A0B088 /* Chataroo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chataroo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EB76A9C1EA56CD300A0B088 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0EB76A9E1EA56CD300A0B088 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0EB76AA11EA56CD300A0B088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0EB76AA31EA56CD300A0B088 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EB76AA61EA56CD300A0B088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EB76AA81EA56CD300A0B088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EB76AB51EA56D5B00A0B088 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0EB76AB71EA56DED00A0B088 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		0EB76AB91EA56DF200A0B088 /* PhotoCaptureDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCaptureDelegate.swift; sourceTree = "<group>"; };
+		0EB76ABB1EA56F1300A0B088 /* CameraVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
+		0EB76ABD1EA5733400A0B088 /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		0EB76ABF1EA57E9900A0B088 /* AAPLCameraVCDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLCameraVCDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,59 @@
 		0EB76A9B1EA56CD300A0B088 /* Chataroo */ = {
 			isa = PBXGroup;
 			children = (
+				0EB76AB21EA56D2E00A0B088 /* Protocols */,
+				0EB76AB11EA56D2500A0B088 /* Services */,
+				0EB76AB01EA56D1B00A0B088 /* Model */,
+				0EB76AB41EA56D3A00A0B088 /* View */,
+				0EB76AB31EA56D3500A0B088 /* Controller */,
 				0EB76A9C1EA56CD300A0B088 /* AppDelegate.swift */,
-				0EB76A9E1EA56CD300A0B088 /* ViewController.swift */,
+				0EB76AB91EA56DF200A0B088 /* PhotoCaptureDelegate.swift */,
 				0EB76AA01EA56CD300A0B088 /* Main.storyboard */,
 				0EB76AA31EA56CD300A0B088 /* Assets.xcassets */,
 				0EB76AA51EA56CD300A0B088 /* LaunchScreen.storyboard */,
 				0EB76AA81EA56CD300A0B088 /* Info.plist */,
 			);
 			path = Chataroo;
+			sourceTree = "<group>";
+		};
+		0EB76AB01EA56D1B00A0B088 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0EB76AB51EA56D5B00A0B088 /* User.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0EB76AB11EA56D2500A0B088 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		0EB76AB21EA56D2E00A0B088 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				0EB76ABF1EA57E9900A0B088 /* AAPLCameraVCDelegate.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		0EB76AB31EA56D3500A0B088 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0EB76AB71EA56DED00A0B088 /* CameraViewController.swift */,
+				0EB76ABB1EA56F1300A0B088 /* CameraVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0EB76AB41EA56D3A00A0B088 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0EB76ABD1EA5733400A0B088 /* PreviewView.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +192,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EB76A9F1EA56CD300A0B088 /* ViewController.swift in Sources */,
+				0EB76ABC1EA56F1300A0B088 /* CameraVC.swift in Sources */,
+				0EB76AB81EA56DED00A0B088 /* CameraViewController.swift in Sources */,
 				0EB76A9D1EA56CD300A0B088 /* AppDelegate.swift in Sources */,
+				0EB76AC01EA57E9900A0B088 /* AAPLCameraVCDelegate.swift in Sources */,
+				0EB76ABA1EA56DF200A0B088 /* PhotoCaptureDelegate.swift in Sources */,
+				0EB76AB61EA56D5B00A0B088 /* User.swift in Sources */,
+				0EB76ABE1EA5733400A0B088 /* PreviewView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
